@@ -6,3 +6,7 @@
 * install [kubernetes on master](./docs/kube_master.md)
 * install [kubernetes on slaves](./docs/kube_slave.md)
 * install [helm/tiller](./docs/helm_tiller.md)
+* install nginx-ingress via helm
+* install storageos via helm
+* install dashboard via helm
+
