@@ -61,7 +61,7 @@ spokra@slave01:~$ cat /etc/cockpit/machines.d/machines.json
     }                                                                                                                                                                         
 }  
 ```
-# slave02 config
+# Slave02 config
 ```
 spokra@slave02:~$ cat /etc/cockpit/machines.d/machines.json                                                                                                                   
 {                                                                                                                                                                             
@@ -85,7 +85,7 @@ spokra@slave02:~$ cat /etc/cockpit/machines.d/machines.json
     }                                                                                                                                                                         
 }            
 ```
-# slave03 config
+# Slave03 config
 ```
 {                                                                                                                                                                             
     "master": {                                                                                                                                                               
