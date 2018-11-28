@@ -63,9 +63,48 @@ spokra@slave01:~$ cat /etc/cockpit/machines.d/machines.json
 ```
 # slave02 config
 ```
-
+spokra@slave02:~$ cat /etc/cockpit/machines.d/machines.json                                                                                                                   
+{                                                                                                                                                                             
+    "master": {                                                                                                                                                               
+        "address": "master",                                                                                                                                                  
+        "visible": true,                                                                                                                                                      
+        "color": "green",                                                                                                                                                     
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave01": {                                                                                                                                                          
+        "address": "slave01",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "red",                                                                                                                                                       
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave03": {                                                                                                                                                          
+        "address": "slave03",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "yellow",                                                                                                                                                    
+        "user": "spokra"                                                                                                                                                      
+    }                                                                                                                                                                         
+}            
 ```
 # slave03 config
 ```
-
+{                                                                                                                                                                             
+    "master": {                                                                                                                                                               
+        "address": "master",                                                                                                                                                  
+        "visible": true,                                                                                                                                                      
+        "color": "green",                                                                                                                                                     
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave01": {                                                                                                                                                          
+        "address": "slave01",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "red",                                                                                                                                                       
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave02": {                                                                                                                                                          
+        "address": "slave02",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "yellow",                                                                                                                                                    
+        "user": "spokra"                                                                                                                                                      
+    }                                                                                                                                                                         
+}          
 ```
