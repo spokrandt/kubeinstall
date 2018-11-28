@@ -1,0 +1,1 @@
+# Install kubernetes on slaves
