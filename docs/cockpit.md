@@ -36,3 +36,36 @@ spokra@master:/etc/cockpit/machines.d$ cat 99-webui.json
     }                                                                                                                                                                         
 }                              
 ```
+
+# Slave01 config
+```
+spokra@slave01:~$ cat /etc/cockpit/machines.d/machines.json                                                                                                                   
+{                                                                                                                                                                             
+    "master": {                                                                                                                                                               
+        "address": "master",                                                                                                                                                  
+        "visible": true,                                                                                                                                                      
+        "color": "green",                                                                                                                                                     
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave02": {                                                                                                                                                          
+        "address": "slave02",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "red",                                                                                                                                                       
+        "user": "spokra"                                                                                                                                                      
+    },                                                                                                                                                                        
+        "slave03": {                                                                                                                                                          
+        "address": "slave03",                                                                                                                                                 
+        "visible": true,                                                                                                                                                      
+        "color": "yellow",                                                                                                                                                    
+        "user": "spokra"                                                                                                                                                      
+    }                                                                                                                                                                         
+}  
+```
+# slave02 config
+```
+
+```
+# slave03 config
+```
+
+```
