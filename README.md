@@ -10,3 +10,4 @@
 * install storageos via helm
 * install dashboard via helm
 
+* install [tomcat and war](https://github.com/kubernetes/examples/tree/master/staging/javaweb-tomcat-sidecar)
